@@ -1,0 +1,7 @@
+// Setup base url path for absolute import
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+    }
+  }
+  
