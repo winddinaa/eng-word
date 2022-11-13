@@ -2,8 +2,8 @@ import React from "react";
 
 import CardMain from "components/CardMain";
 
-const PageLogin = () => {
-  return <CardMain>CardMain</CardMain>;
+const LoginPage = () => {
+  return <CardMain>LoginPage</CardMain>;
 };
 
-export default PageLogin;
+export default LoginPage;

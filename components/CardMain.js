@@ -7,7 +7,7 @@ const CardMain = ({ color, width, height, children }) => {
   return (
     <Box
       sx={{
-        background: color,
+        bgcolor: color,
         width: width,
         height: height,
       }}
@@ -25,7 +25,7 @@ CardMain.propTypes = {
 };
 
 CardMain.defaultProps = {
-  color: "rgba(0,0,0,.9)",
+  color: "background.paper",
   width: "100vw",
   height: "100vh",
 };
