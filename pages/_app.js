@@ -1,7 +1,11 @@
 import "styles/globals.css";
 import { ThemeProvider } from "@mui/material";
-import { theme } from "utils/theme";
+
+//component
 import LayoutWrapper from "layouts";
+
+//utils
+import { theme } from "utils/theme";
 
 function MyApp({ Component, pageProps }) {
   return (

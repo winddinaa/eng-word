@@ -1,10 +1,11 @@
 import React from "react";
 
+//component
 import HomePage from "components/page/Home";
 import LoginPage from "components/page/Login";
 
-const Home = () => {
+const SwitchRoute = () => {
   return <LoginPage />;
 };
 
-export default Home;
+export default SwitchRoute;

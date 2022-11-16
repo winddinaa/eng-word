@@ -2,10 +2,11 @@ import React from "react";
 
 import Navbar from "components/layout/Navbar";
 
-const PublicLayout = () => {
+const PublicLayout = (props) => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
+      <main>{props.children}</main>
     </>
   );
 };
