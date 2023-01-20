@@ -6,8 +6,8 @@ export const theme = createTheme({
       main: "#fcba03",
     },
     background: {
-      paper: "rgba(0,0,0,.9)",
-      secone: "rgba(0,0,0,.7)",
+      paper: "rgba(0,0,0,.1)",
+      seconde: "rgba(0,0,0,.7)",
     },
   },
 });
